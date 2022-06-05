@@ -1,0 +1,100 @@
+:root {
+    --blanco: #ffffff;
+    --oscuro:  #212121;
+    --primario: #FFC107;
+    --secundario: #0097A7;
+    --gris: #757575;        
+}
+
+html {
+    font-size: 62.5%;
+    box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    /* box-sizing: inherit; */
+  }
+
+body{
+    font-size: 16px;
+    font-family: 'Krub', sans-serif;
+}
+
+h1.titulo {
+    text-align: center;
+    font-size: 2.5rem;
+    color: var(--oscuro)
+}
+
+.titulo span {
+    font-size: 3.5rem;
+}
+.titulo2{
+    font-size: 3.5rem;
+}
+.nav-bg{
+    background-color: #083BAF;
+}
+
+.contenedor{
+    max-width: 120rem;
+    margin: auto;
+}
+
+.navegacion-principal{
+    
+display: flex;
+    
+flex-direction: row;
+    
+justify-content: space-around;
+}
+
+
+
+
+
+
+.navegacion-principal a {
+    text-align: center;
+    color: var(--blanco);
+    text-decoration: none;
+    font-size: 2rem;
+    padding: 1rem;
+}
+
+.navegacion-principal a:hover{ 
+    background-color:#ff00ff;
+    color: #212121;
+}
+.z1{
+    text-decoration: none;
+    text-align: ;
+    color:floralwhite;
+    font-size: 1.8rem;
+    
+}
+.z1:hover{
+    color: #4b0082
+}
+.formulario{
+    text-align: center;
+}
+
+.c1{
+    text-align: center;
+    background-image: url(../img/hero.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 36rem;
+    padding: 3rem;
+}
+
+.c2{
+    text-align: center;
+}
+
+.c3{
+    text-align: center;
+}
+
